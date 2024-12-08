@@ -24,23 +24,23 @@ Before you begin, ensure you have the following installed on your machine:
   npm install -g @nestjs/cli
 
 ## Installation
-- 1.Clone the repository:
+- Clone the repository:
   ```bash
-    git clone https://github.com/yourusername/jwt_auth_demo.git
-    cd jwt_auth_demo
+    git clone https://github.com/RoystonDAlmeida/jwt-auth-demo-nestjs.git
+    cd jwt-auth-demo-nestjs
 
-- 2. Install the required dependencies:
+- Install the required dependencies:
   ```bash
   npm install
 
-- 3. Running the Application
+- Running the Application
   To run the application in development mode, use the following command:
   ```bash
   npm run start:dev
 
-For production mode, use:
-bash
-npm run start:prod
+- For production mode, use:
+  ```bash
+  npm run start:prod
 
 ## API Endpoints
 
@@ -94,15 +94,15 @@ json
 
 ## Testing
 
-- 1. To run unit tests, use:
+- To run unit tests, use:
   ```bash
   npm run test
 
-- 2. For end-to-end tests, use:
+- For end-to-end tests, use:
   ```bash
   npm run test:e2e
 
-- 3. To check test coverage, use:
+- To check test coverage, use:
   ```bash
   npm run test:cov
 

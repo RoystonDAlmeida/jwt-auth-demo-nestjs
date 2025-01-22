@@ -1,4 +1,4 @@
-# JWT Auth Demo - README
+# JWT Auth Demo 
 
 ## Overview
 
@@ -20,27 +20,32 @@ Before you begin, ensure you have the following installed on your machine:
 
 - **Node.js** (version 18 or higher)
 - **NestJS CLI**: Install globally using the command:
-  ```bash
-  npm install -g @nestjs/cli
+```bash
+npm install -g @nestjs/cli
+```
 
 ## Installation
 - Clone the repository:
-  ```bash
-    git clone https://github.com/RoystonDAlmeida/jwt-auth-demo-nestjs.git
-    cd jwt-auth-demo-nestjs
+```bash
+git clone https://github.com/RoystonDAlmeida/jwt-auth-demo-nestjs.git
+cd jwt-auth-demo-nestjs
+```
 
 - Install the required dependencies:
-  ```bash
-  npm install
+```bash
+npm install
+```
 
 - Running the Application
   To run the application in development mode, use the following command:
-  ```bash
-  npm run start:dev
+```bash
+npm run start:dev
+```
 
 - For production mode, use:
-  ```bash
-  npm run start:prod
+```bash
+npm run start:prod
+```
 
 ## API Endpoints
 
@@ -50,28 +55,33 @@ Authentication Endpoints:
 Description: Authenticates a user and returns an access token.
 
 Request Body:
-json
+```json
 {
   "email": "user@example.com",
   "password": "your_password"
 }
+```
 
 2. POST /auth/register
 Description: Registers a new user.
 
 Request Body:
-json
+```json
 {
   "email": "user@example.com",
   "password": "your_password"
 }
+```
 
 3. Protected Resource Endpoint
 GET /admin
 
 Description: Accesses a protected resource that requires an admin role.
 
-Headers: Authorization: Bearer <access_token>
+Headers: 
+```bash
+Authorization: Bearer <access_token>
+```
 
 4. Refresh Token Endpoint
 POST /auth/refresh
@@ -79,10 +89,11 @@ POST /auth/refresh
 Description: Obtains a new access token using a refresh token.
 
 Request Body:
-json
+```json
 {
   "refreshToken": "your_refresh_token"
 }
+```
 
 ## Usage
 
@@ -95,16 +106,19 @@ json
 ## Testing
 
 - To run unit tests, use:
-  ```bash
-  npm run test
+```bash
+npm run test
+```
 
 - For end-to-end tests, use:
-  ```bash
-  npm run test:e2e
+```bash
+npm run test:e2e
+```
 
 - To check test coverage, use:
-  ```bash
-  npm run test:cov
+```bash
+npm run test:cov
+```
 
 ## License
 

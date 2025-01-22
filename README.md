@@ -12,7 +12,6 @@ This project demonstrates an advanced authentication system using JSON Web Token
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
 - [Testing](#testing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -119,7 +118,3 @@ npm run test:e2e
 ```bash
 npm run test:cov
 ```
-
-## License
-
-This project is licensed under the MIT License. For more details, see the [MIT License](https://opensource.org/licenses/MIT).
